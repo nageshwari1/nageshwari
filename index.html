@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding of [Bride's Name] & [Groom's Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Wedding of [Bride's Name] & [Groom's Name]</h1>
+        <img src="images/couple.jpg" alt="The Couple" id="couple-photo">
+    </header>
+
+    <section id="wedding-details">
+        <h2>Wedding Details</h2>
+        <p><strong>Date:</strong> [Wedding Date]</p>
+        <p><strong>Time:</strong> [Wedding Time]</p>
+        <p><strong>Location:</strong> [Wedding Venue Address]</p>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <p>Please let us know if you can attend!</p>
+        <!-- Example of an RSVP form -->
+        <form action="your_form_handler.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="attending">Will you attend?</label>
+            <select id="attending" name="attending">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            
+            <button type="submit">Submit RSVP</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at [email@example.com] for more information!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

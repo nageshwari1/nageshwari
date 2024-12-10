@@ -1,0 +1,92 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #f0c4c4;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4a4a4a;
+}
+
+#couple-photo {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Wedding details section */
+#wedding-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wedding-details h2 {
+    color: #d26a6a;
+}
+
+#wedding-details p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* RSVP section */
+#rsvp {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#rsvp form {
+    display: flex;
+    flex-direction: column;
+}
+
+#rsvp input, #rsvp select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #d26a6a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b15c5c;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0c4c4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
